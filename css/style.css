@@ -301,7 +301,9 @@ body {
     line-height: 1.5rem;
     list-style: none;
 }
-
+.text-block__paragraph + .text-block__paragraph{
+    margin-top: 1rem;
+}
 .text-block__list li:before {
     content: '- ';
 }
